@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Customized t-shirts</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <center><h1><font face="Harlow Solid">Get Customized T-shirts!</font></h1></center>
+    <br>
+    <center>
+        <figure>
+            <img src="./media/tshirt.jpg" height="300px">
+            <figcaption>These are our sample designs, You can customize them according to the given options.</figcaption>
+        </figure>
+        <font face="Microsoft YaHei UI">
+        <table>
+            
+            <tr>
+                <td><strong>Features:</strong></td>
+                <td>
+                    <ul>
+                        <li>Rapid Dry technology wicks sweat and dries fast</li>
+                        <li>Anti-Microbial technology keeps odor-causing microbes away</li>
+                        <li>Lightweight fabric makes movement easier</li>
+                        <li>Typographic print across chest</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Neck:<br>
+                    Sleeve Style:<br>
+                    Sleeve Length:<br>
+                    Tshirt Length:<br>
+                    Fit:<br></b>
+                </td>
+                <td>
+                    <pre><font face="Microsoft YaHei UI">           Round Neck
+           Regular
+           Short
+           Regular
+           Regular</font></pre>   
+                </td>
+            </tr>
+            <tr>
+                <td><b>Material & Care:</b></td>
+                <td>
+                    <pre><font face="Microsoft YaHei UI">          100% polyester
+          Machine-wash</font></pre>
+        </td>
+            </tr>
+        </font>    
+        </table>
+    </center>
+    <br>
+    <fieldset>
+        <legend><h2>Please fill out this form!</h2></legend>
+        <form>
+            <center>
+            <font face="comic sans ms">
+            <table cellspacing="" cellpadding="10">
+                <tr>
+                    <td><label for="colour">Select a color: </label></td>
+                    <td>
+                        <input type="color" value="#e66465">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="size">Select Your Size:</label></td>
+                    <td>
+                        <select id="size" name="size">
+                            <option value="">Select Size</option>
+                            <option value="S">Small</option>
+                            <option value="M">Medium</option>
+                            <option value="L">Large</option>
+                            <option value="XL">XL</option>    
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="logo">Please upload your logo:</label></td>
+                    <td>
+                        <input type="file" id="logo" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="company">Enter Company Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="companyname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tagline">Enter the tagline you want to be printed:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="tagline" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="quantity" >Quantity:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" max="100" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="details">Any specific details you want to mention:</label>
+                    </td>
+                    <td>
+                        <textarea id="details" rows="6" cols="40" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contact">Enter your Contact no.:</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="number"name="phone" pattern="[0-9]{10}" required>
+                        <small>Format: 1234567890</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Enter Your Email id:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Enter the address for shipping:</label>
+                    </td>
+                    <td>
+                        <textarea id="address" rows="4" cols="30" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="delivery_date" >Date of Delivery:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="delivery_date" name="delivery_date" required >
+                        <p><font face="Arial" size="1">Delivery may be delayed or expedited by up to 2 days.</font></p>
+                    </td>
+                </tr>
+                
+            </table>
+            <button type="submit">Submit</button>
+            </font>
+            </center>
+            
+        </form>
+    </fieldset>
+    <footer>
+        <p>Contact Us:</p>
+        <address>
+            <p><span>&#x1F4E7;</span>Email: <a>customizedtees@gmail,com (sample email)</a></p>
+            <p><span>&#x1F4DE;</span>Mobile Number: <a>(sample number to be present here)</a></p>
+          </address>
+    </footer>
+</body>
+</html>
