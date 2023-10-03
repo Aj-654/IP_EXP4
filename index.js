@@ -14,8 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Validate mobile number (exactly 9 digits)
         const mobileNumberField = document.getElementById("number");
         const mobileNumber = mobileNumberField.value.replace(/\s/g, ""); // Remove whitespace
-        if (!/^\d{10}$/.test(mobileNumber)) {
-            alert("Mobile number must contain exactly 10 digits.");
+        /* Validates an indian number */
+        if (!/^[789]\d{9}$/.test(mobileNumber)) {
+            alert("Mobile number must be a valid Indian phone number.");
             return false;
         }
 
